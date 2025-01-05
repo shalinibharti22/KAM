@@ -11,7 +11,7 @@ const options = {
     },
     servers: [
       {
-        url: 'https://kam-1-6yc0.onrender.com', // Replace with your deployed URL
+        url: 'https://https://kam-2.onrender.com/', // Replace with your deployed URL
       },
     ],
   },
