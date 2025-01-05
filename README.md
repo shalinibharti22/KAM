@@ -21,8 +21,7 @@ A comprehensive API designed to streamline the lead management process for Key A
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/kam-lead-management-system.git
-cd kam-lead-management-system
+git clone https://github.com/shalinibharti22/KAM.git
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -52,14 +51,14 @@ The server will be running at `http://localhost:5000`.
 ## 🧪 **Deployed API URL**
 
 The API is deployed on **Render**:  
-👉 [https://kam-1-6yc0.onrender.com](https://kam-1-6yc0.onrender.com)
+👉 [https://kam-2.onrender.com](https://kam-2.onrender.com)
 
 ---
 
 ## 📖 **API Documentation (Swagger)**
 
 Access the Swagger UI at:  
-👉 [https://kam-1-6yc0.onrender.com/api-docs](https://kam-1-6yc0.onrender.com/api-docs)
+👉 [https://kam-2.onrender.com/api-docs](https://kam-2.onrender.com/api-docs)
 
 ---
 

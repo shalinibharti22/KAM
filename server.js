@@ -8,15 +8,14 @@ const Interaction = require('./models/interaction.js');
 const User = require('./models/userModel');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./utlis/swagger');
-const userRoutes = require('./routes/userRoutes');
- // Adjust the path if necessary
- console.log(process.env.JWT_SECRET);  // Debug environment variables
 
+console.log(process.env.JWT_SECRET); 
 require('dotenv').config();
 
 // Importing Routes
 const leadRoutes = require('./routes/leadRoutes.js');
 const authRoutes = require('./routes/authRoutes');
+const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 
@@ -38,25 +37,7 @@ app.use('/auth', authRoutes);
 app.use('/leads', leadRoutes);
 app.use('/users',userRoutes);
 
-// Register Route
-/*app.post('/register', async (req, res) => {
-    try {
-      const { username, email, password } = req.body;
-  
-      // Check if user already exists
-      const existingUser = await User.findOne({ email });
-      if (existingUser) {
-        return res.status(400).json({ message: "User already exists" });
-      }
-  
-      // Create new user
-      const user = await User.create({ username, email, password });
-      res.status(201).json({ message: "User registered successfully", user });
-    } catch (error) {
-      res.status(500).json({ message: error.message });
-    }
-  });
-*/
+
   // Login Route
 app.post('/login', async (req, res) => {
     try {
