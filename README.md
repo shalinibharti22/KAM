@@ -21,8 +21,7 @@ A comprehensive API designed to streamline the lead management process for Key A
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/kam-lead-management-system.git
-cd kam-lead-management-system
+git clone https://github.com/shalinibharti22/KAM.git
 ```
 
 ### **2️⃣ Install Dependencies**
