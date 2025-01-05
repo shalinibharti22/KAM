@@ -51,14 +51,14 @@ The server will be running at `http://localhost:5000`.
 ## 🧪 **Deployed API URL**
 
 The API is deployed on **Render**:  
-👉 [https://kam-1-6yc0.onrender.com](https://kam-1-6yc0.onrender.com)
+👉 [https://kam-2.onrender.com](https://kam-2.onrender.com)
 
 ---
 
 ## 📖 **API Documentation (Swagger)**
 
 Access the Swagger UI at:  
-👉 [https://kam-1-6yc0.onrender.com/api-docs](https://kam-1-6yc0.onrender.com/api-docs)
+👉 [https://kam-2.onrender.com/api-docs](https://kam-2.onrender.com/api-docs)
 
 ---
 
