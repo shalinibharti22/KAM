@@ -1,8 +1,6 @@
-// swagger.js
+// utils/swagger.js
 const swaggerJSDoc = require('swagger-jsdoc');
-const swaggerUi = require('swagger-ui-express');
-const express = require('express');
-const app = express();
+
 const options = {
   definition: {
     openapi: '3.0.0',
@@ -13,7 +11,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:3000', // The URL where the API will be hosted
+        url: 'https://kam-1-6yc0.onrender.com', // Replace with your deployed URL
       },
     ],
   },
@@ -21,5 +19,5 @@ const options = {
 };
 
 const swaggerSpec = swaggerJSDoc(options);
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 module.exports = swaggerSpec;

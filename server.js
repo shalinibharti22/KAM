@@ -22,7 +22,14 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
+app.options('*', cors());
 
+
+app.use(cors({
+  origin: '*', // Allow all origins
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow these methods
+  allowedHeaders: ['Content-Type', 'Authorization'], // Allow these headers
+}));
 // Swagger UI Setup
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec)); // Serve Swagger UI
 
